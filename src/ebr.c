@@ -74,6 +74,14 @@ ebr_create(void)
 }
 
 void
+ebr_unregister(ebr_t *ebr)
+{
+	ebr_tls_t *t = pthread_getspecific(ebr->tls_key);
+	pthread_setspecific(ebr->tls_key, NULL);
+	free(t);
+}
+
+void
 ebr_destroy(ebr_t *ebr)
 {
 	pthread_key_delete(ebr->tls_key);
