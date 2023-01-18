@@ -1,6 +1,6 @@
 # Quiescent-State and Epoch based reclamation
 
-[![Build Status](https://travis-ci.org/rmind/libqsbr.svg?branch=master)](https://travis-ci.org/rmind/libqsbr)
+[![Build Status](https://travis-ci.org/rmind/libqsbr.svg?branch=master)](https://travis-ci.org/rmind/libqsbr) [![Project Archived](https://docs.outscale.com/fr/userguide/_images/Project-Archived-red.svg)](https://docs.outscale.com/en/userguide/Open-Source-Projects.html)
 
 Epoch-Based Reclamation (EBR) and Quiescent-State-Based Reclamation (QSBR)
 are synchronisation mechanisms which can be used for efficient memory/object
